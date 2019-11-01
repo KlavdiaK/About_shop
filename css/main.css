@@ -15,11 +15,107 @@ img{
 a{
 	text-decoration:none;
 }
+/* header */
+.content{
+	max-width:1440px
+	margin:0 auto;
+}
+.header__logo-box{
+	position: absolute;
+	width: 343px;
+	height: 108px;
+
+}
+.header__top{
+	margin: 17px 147px 17px 343px;
+	max-width:1097px;
+
+	
+	justify-content:space-between;
+	align-items:center;
+	font-size: 14px
+	
+	background: #FFFFFF;
+
+}
+.menu__link{
+	padding: 0 10px;
+	font-size: 14px	
+}
+.menu__phone{
+	float:right;
+	padding: 0 10px;
+	color: #B8937D;
+	font-size: 14px
+}
+.menu__address{
+	float:right;
+	padding: 0 10px;
+	font-size: 14px
+}
+
+.menu__val{
+	float:right;
+	padding: 0 10px;
+	font-size: 14px
+	
+}
+.header__bottom{
+	float:left;
+	display: flex;
+	margin: 17px 144px 17px 343px;
+	width:1097px;
+	height: 57px;
+    
+    align-items:center;
+	
+	background: #B8937D;
+	font-size: 14px
+	
+}
+.nav__link{
+	padding: 0 10px;
+	font-size: 14px;
+	color: #FFFFFF;
+
+}
+.nav__link:not(:first-child){
+	text-align: right;
+}
+
 /* О магазине */
 .page{
 	background-color:#fff;
 	padding:30px 0;
 	line-height:20px;
+}
+.page__text{
+	width:100%;
+	max-width:1440px;
+	padding:0 15px;
+	margin:0 auto;
+
+	
+	width: 119px;
+	height: 32px;
+	
+	justify-content:space-between;
+	text-align:center;
+	vertical-align:top;
+	font-size:18px;
+
+}
+.right-arrow{
+	width:100%;
+	max-width:1440px;
+	padding:0 15px;
+	margin:0 auto;
+	
+	justify-content:right;
+	height:16.85px;
+	width:24.44px;
+	align-items: center
+	vertical-align:top;
 }
 .wrap{
 
@@ -32,6 +128,7 @@ a{
 }
 
 .page_gray{
+	width: 100%;
 	background-color:#E5E5E5;
 
 }
@@ -98,10 +195,10 @@ a{
 	color: #000000;
 }
 .box-skills__img{
-	height:68px;
-	width:68px;
+	height:46.88px;
+	width:46.88px;
 	align-items: center;
-	background: #C4C4C4;
+	
 
 }
 
@@ -123,11 +220,6 @@ a{
 
 
 /*subsctibe*/
-.img_viget{
-	float: right;
-	position:relative;
-}
-
 
 .title{
     margin: 93px 0 0 148px;
@@ -147,15 +239,16 @@ a{
 	border: 1px solid #FFFFFF;
 	box-sizing: border-box;
 	margin:30px 30px 30px 148px;
+	text-align: left;
 }
-placeholder{
+/*placeholder{
 	margin:20px 0 20px 167px;
 	width: 95px;
 	height: 20px;
 
 
 }
-
+*/
 
 .button{
 	
@@ -196,4 +289,22 @@ placeholder{
 	height: 20px;
 	
     
+}
+/*Container*/
+.container{
+	width:100%;
+	max-width:1200 px;
+	margin:0 auto;
+}
+
+/*bgr-img*/
+.bgr-img{
+	
+	background-image: url("img/viget.png");
+	background-position:right center;
+	background-repeat:no-repeat;
+	background-color:#E5E5E5;
+
+	width: 1056px;
+	height: 461px;
 }
