@@ -1,4 +1,4 @@
-/* О магазине */
+/*  */
 html{
 	box-sizing:border-box;
 
@@ -19,6 +19,7 @@ a{
 .content{
 	max-width:1440px
 	margin:0 auto;
+	
 }
 .header__logo-box{
 	position: absolute;
@@ -41,6 +42,7 @@ a{
 .menu__link{
 	padding: 0 10px;
 	font-size: 14px	
+	color: #000000;
 }
 .menu__phone{
 	float:right;
@@ -58,7 +60,9 @@ a{
 	float:right;
 	padding: 0 10px;
 	font-size: 14px
+	color: #000000;
 	
+
 }
 .header__bottom{
 	float:left;
@@ -82,6 +86,49 @@ a{
 .nav__link:not(:first-child){
 	text-align: right;
 }
+/*Slider-fon*/  
+.slider-top{
+
+	background-image:url(../img/slider-fon.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:right;
+    
+	min-height: 641px;
+	
+}
+.slider__item{
+	position: absolute;
+	width: 1056px;
+	height: 461px
+
+}
+.slider__subtitle-top{
+	margin: 152px 0 30px 178px;
+	width: 364px;
+	height: 23px;
+
+}
+.slider__title-top{
+    margin: 30px 0 43px 177px;
+
+    font-size: 54px;
+    line-height: 70px;
+	font-weight: 900;
+
+	
+	align-items: center;
+
+	color: #B8937D;
+    font-family: Roboto;
+    text-transform: capitalize;
+}    
+
+.slider__btn{
+	margin:43px 0 0 178px;
+	font-weight: bold;
+	color: #333333;
+}
 
 /* О магазине */
 .page{
@@ -89,34 +136,22 @@ a{
 	padding:30px 0;
 	line-height:20px;
 }
-.page__text{
-	width:100%;
-	max-width:1440px;
-	padding:0 15px;
-	margin:0 auto;
+.page__detail{
+	
+	
 
 	
 	width: 119px;
 	height: 32px;
 	
-	justify-content:space-between;
-	text-align:center;
+	justify-content:right;
+	text-align:right;
 	vertical-align:top;
 	font-size:18px;
 
 }
-.right-arrow{
-	width:100%;
-	max-width:1440px;
-	padding:0 15px;
-	margin:0 auto;
-	
-	justify-content:right;
-	height:16.85px;
-	width:24.44px;
-	align-items: center
-	vertical-align:top;
-}
+
+
 .wrap{
 
 	width:100%;
@@ -126,14 +161,13 @@ a{
 
 	font-family: Montserrat;
 }
-
-.page_gray{
-	width: 100%;
-	background-color:#E5E5E5;
-
+.title_1, .page__detail{
+	display:inline;
 }
 
+
 .title_1{
+	
 	text-align:left;
 	font-size: 36px;
     margin-bottom:20px;
@@ -220,14 +254,28 @@ a{
 
 
 /*subsctibe*/
+.slider{
 
-.title{
+	background-image:url(../img/bgr-subscribe.png);
+	background-repeat:no-repeat;
+	
+	background-position:right;
+	min-height:500px;
+	background-color:#E4E4E4;
+}
+
+.slider__title{
     margin: 93px 0 0 148px;
+    width: 562px;
+	height: 69px;
+
+	font-style: normal;
   
 }    
-.subtitle_1{
-	margin:0 0 10px 148px;
-	
+.slider__subtitle_1{
+	margin:0 0 41px 147px;
+	width: 458px;
+	height: 21px;
 
 }
 .mail-form{
@@ -238,17 +286,9 @@ a{
 	background: #FFFFFF;
 	border: 1px solid #FFFFFF;
 	box-sizing: border-box;
-	margin:30px 30px 30px 148px;
+	margin:41px 20px 40px 148px;
 	text-align: left;
 }
-/*placeholder{
-	margin:20px 0 20px 167px;
-	width: 95px;
-	height: 20px;
-
-
-}
-*/
 
 .button{
 	
@@ -275,12 +315,12 @@ a{
 /*Social icons*/
 
 
-.subtitle_1,.subtitle_2, .icon{
+.slider__subtitle_1,.slider__subtitle_2, .icon{
 	display:inline;
 	
 }
-.subtitle_2{
-	margin:10px 30px 30px 148px;
+.slider__subtitle_2{
+	margin:40px 30px 118px 147px;
 }
 .icon {
 	margin:10px 30px 0 0;
@@ -297,14 +337,4 @@ a{
 	margin:0 auto;
 }
 
-/*bgr-img*/
-.bgr-img{
-	
-	background-image: url("img/viget.png");
-	background-position:right center;
-	background-repeat:no-repeat;
-	background-color:#E5E5E5;
 
-	width: 1056px;
-	height: 461px;
-}
